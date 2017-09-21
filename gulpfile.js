@@ -79,7 +79,7 @@ gulp.task('js', function () {
 });
 
 gulp.task('img', function () {
-	return gulp.src('src/img/**/*.{jpg,jpeg,png}')
+	return gulp.src('src/img/**/*.{jpg,jpeg,png,svg}')
 		.pipe(gulp.dest('dist/img'));
 });
 
