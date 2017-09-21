@@ -7,4 +7,5 @@ Użyte technologie:
 - CSS
 - framework UIkit
 - SASS
+- jQuery
 - Gulp
