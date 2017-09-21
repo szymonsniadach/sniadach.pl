@@ -1,0 +1,19 @@
+.hero {
+    background: url('../img/bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    h2 {
+        font-family: 'Lobster', cursive;
+        font-size: 5em;
+    }
+    p {
+        font-family: 'Lobster', cursive;
+        font-size:2em;
+        color: #FFF;
+    }
+    .uk-overlay-primary {
+        height: 100vh;
+    }
+}

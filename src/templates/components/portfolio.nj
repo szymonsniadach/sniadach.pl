@@ -1,0 +1,137 @@
+<section id="portfolio" class="portfolio">
+    <div class="uk-container uk-container-large">
+
+        <h2 class="uk-heading-line uk-text-center"><span>Portfolio</span></h2>
+
+        <div uk-grid>
+            <div class="uk-width-1-3@m uk-width-1-1@s">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/portfolio/sniadach.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                            <div class="uk-position-center">
+                                <p class="uk-h4">sniadach.pl - strona wizytówka</p>
+                                <a href="http://www.sniadach.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                <a href="#modal3" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+
+                                <div id="modal3" class="uk-modal-container" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Strona wizytówka</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <div class="uk-child-width-1-2@m" uk-grid>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <img src="img/portfolio/modals/sniadach.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p>Moja strona wizytówka.</p>
+                                                    <p>Użyte technologie:<br> - HTML<br> - CSS<br> - framework UIkit<br> - Gulp<br>- SASS</p>
+                                                    <p>
+                                                        <p>
+                                                            <a href="http://www.sniadach.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                                            <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne" target="_blank"><span uk-icon="icon: github; ratio: 2"></span></a>
+                                                        </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-1@s">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/portfolio/rekrutacja.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                            <div class="uk-position-center">
+                                <p class="uk-h4">zadanie rekrutacyjne</p>
+                                <a href="http://www.sniadach.pl/projekty/zadanie-rekrutacyjne" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                <a href="#modal2" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+
+                                <div id="modal2" class="uk-modal-container" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Zadanie rekrutacyjne</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <div class="uk-child-width-1-2@m" uk-grid>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <img src="img/portfolio/modals/zadanie-rekrutacyjne.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p>Projekt stworzony na potrzeby rekrutacji. Z PSD do HTML.</p>
+                                                    <p>Użyte technologie:<br> - HTML<br> - CSS<br> - framework UIkit<br> - Gulp<br>                                                        - SASS</p>
+                                                    <p>
+                                                        <a href="http://sniadach.pl/projekty/zadanie-rekrutacyjne/" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                                        <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne" target="_blank"><span uk-icon="icon: github; ratio: 2"></span></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-1@s">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/portfolio/nartolandia.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="nartolandia">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                            <div class="uk-position-center">
+                                <p class="uk-h4">Nartolandia - wypożyczalnia nart</p>
+                                <a href="http://www.nartolandia.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                <a href="#modal1" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+
+                                <div id="modal1" class="uk-modal-container" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Nartolandia.pl - wypożyczalnia nart</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <div class="uk-child-width-1-2@m" uk-grid>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <img src="img/portfolio/modals/nartolandia.png" alt="nartolandia">
+                                                </div>
+                                                <div>
+                                                    <p>Projekt stworzony w CMS Wordpress.</p>
+                                                    <p>
+                                                        <a href="http://www.nartolandia.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

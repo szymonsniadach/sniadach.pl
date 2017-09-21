@@ -1,0 +1,81 @@
+.exp {
+    position: relative;
+    height: 100%;
+    padding-top: 30px;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 3px;
+        margin-left: -1.5px;
+        height: 100%;
+        background-color: $color2;
+    }
+    &__icon {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        color: #FFF;
+        border-radius: 50%;
+        background-color: $color2;
+        img {
+            position: absolute;
+            color: #FFF;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+        }
+    }
+    &--box {
+        position: relative;
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        &:nth-child(even) .exp-content {
+            float: right;
+        }
+    }
+
+    &--box:nth-child(2n+3) .exp-content, &--box:nth-child(2n+2) .exp-content, &--box:nth-child(2n+2) &__dot {
+        margin-top: -100px;
+    }
+
+    &__dot {
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        width: 26px;
+        height: 26px;
+        margin-left: -13px;
+        background: $color2;
+        border-radius: 50%;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    &-content {
+        box-sizing: border-box;
+        position: relative;
+        width: 45%;
+        background-color: #fff;
+        padding: 20px;
+    }
+}
+
+@media (max-width: $l-max) {
+    .exp {
+        &::before, &__icon, &__dot {
+            display: none;
+        }
+        &-content {
+            width: 100%;
+        }
+        &--box {
+            float: none;
+            margin-top: 20px;
+        }
+    }
+}

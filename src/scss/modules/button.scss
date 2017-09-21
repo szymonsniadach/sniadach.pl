@@ -1,0 +1,6 @@
+.my-button {
+	@include button($color2, #fff);
+	span {
+		margin-right: 10px;
+	}
+}

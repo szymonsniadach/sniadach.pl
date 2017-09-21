@@ -1,0 +1,92 @@
+<section id="contact" class="contact">
+	<div class="uk-container uk-container-large">
+
+		<h2 class="uk-heading-line uk-text-center"><span>Kontakt</span></h2>
+
+		<div class="contact--block uk-box-shadow-large">
+			<div uk-grid>
+				<div class="uk-width-1-2@m">
+					<div class="uk-flex uk-flex-center">
+
+						<ul class="personal-info-list">
+							<li class="personal-info">
+								<div class="personal-info__icon">
+									<span uk-icon="icon: user; ratio: 2"></span>
+								</div>
+								<div class="personal-info__text">
+									<span>Szymon Śniadach</span>
+								</div>
+							</li>
+							<li class="personal-info">
+								<div class="personal-info__icon">
+									<span uk-icon="icon: mail; ratio: 2"></span>
+								</div>
+								<div class="personal-info__text">
+									<span><a href="mailto:sz.sniadach@wp.pl">sz.sniadach@wp.pl</a></span>
+								</div>
+							</li>
+							<li class="personal-info">
+								<div class="personal-info__icon">
+									<span uk-icon="icon: phone; ratio: 2"></span>
+								</div>
+								<div class="personal-info__text">
+									<span><a href="tel:783419222">783 419 222</a></span>
+								</div>
+							</li>
+							<li class="personal-info">
+								<div class="personal-info__icon">
+									<span uk-icon="icon: location; ratio: 2"></span>
+								</div>
+								<div class="personal-info__text">
+									<span>Białystok</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+
+				<div class="uk-width-1-2@m">
+
+					<form id="form-contact">
+						<fieldset class="uk-fieldset">
+
+							<legend class="uk-legend">Formularz kontaktowy</legend>
+
+							<div class="uk-margin">
+								<div class="uk-width-1-1 uk-inline">
+									<span class="uk-form-icon" uk-icon="icon: user"></span>
+									<input class="uk-input" type="text" placeholder="Imię i Nazwisko / Nazwa firmy">
+								</div>
+							</div>
+
+							<div class="uk-margin">
+								<div class="uk-width-1-1 uk-inline">
+									<span class="uk-form-icon" uk-icon="icon: mail"></span>
+									<input class="uk-input" type="text" placeholder="Mail">
+								</div>
+							</div>
+
+							<div class="uk-margin">
+								<div class="uk-width-1-1 uk-inline">
+									<span class="uk-form-icon" uk-icon="icon: phone"></span>
+									<input class="uk-input" type="text" placeholder="Telefon">
+								</div>
+							</div>
+
+							<div class="uk-margin">
+								<textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+							</div>
+
+							<button type="submit" class="my-button" form="form-contact" value="Wyślij wiadomość">Wyślij wiadomość</button>
+
+						</fieldset>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>

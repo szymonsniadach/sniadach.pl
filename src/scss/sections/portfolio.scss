@@ -1,0 +1,19 @@
+.portfolio {
+    background-color: #FFF;
+    .uk-inline-clip {
+        margin: 5px;
+    }
+    .uk-overlay-primary {
+        background: rgba(34,34,34,0.5);
+    }
+}
+
+.portfolio-img {
+    height: 240px;
+    @media (min-width: $m) {
+        height: 150px;
+    }
+    @media (min-width: $l) {
+        height: 240px;
+    }
+}

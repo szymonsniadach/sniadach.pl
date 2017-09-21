@@ -1,0 +1,26 @@
+ol, ul {
+    padding-left: 0px;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F5F5F5;
+}
+
+.uk-heading-line {
+    margin-bottom: 60px;
+    span {
+        border: 1px solid $color2;
+        padding: 10px 20px 10px 20px;
+    }
+    >:before {
+        margin-right: 0;
+    }
+    >:after {
+        margin-left: 0;
+    }
+    >:before, >:after {
+        border-bottom: 1px solid $color2;
+    }
+}

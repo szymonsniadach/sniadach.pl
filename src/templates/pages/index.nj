@@ -1,0 +1,16 @@
+{% extends "layout.nj" %}
+
+
+{% block content %}
+
+		{% include "partials/header.nj" %}
+
+		{% include "components/hero.nj" %}
+		{% include "components/about-me.nj" %}
+		{% include "components/exp-and-skills.nj" %}
+		{% include "components/portfolio.nj" %}
+		{% include "components/contact.nj" %}
+
+		{% include "partials/footer.nj" %}
+
+{% endblock %}

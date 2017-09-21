@@ -1,0 +1,68 @@
+<section id="about-me" class="about-me">
+    <div class="uk-container uk-container-large">
+
+        <h2 class="uk-heading-line uk-text-center"><span>O mnie</span></h2>
+
+        <div uk-grid>
+            <div class="uk-width-3-4@m uk-width-1-1@s">
+
+                <div class="uk-flex uk-flex-center">
+                    <ul class="personal-info-list">
+                        <li class="personal-info">
+                            <div class="personal-info__icon">
+                                <span uk-icon="icon: user; ratio: 2"></span>
+                            </div>
+                            <div class="personal-info__text">
+                                <span>Szymon Śniadach</span>
+                            </div>
+                        </li>
+                        <li class="personal-info">
+                            <div class="personal-info__icon">
+                                <span uk-icon="icon: mail; ratio: 2"></span>
+                            </div>
+                            <div class="personal-info__text">
+                                <span><a href="mailto:sz.sniadach@wp.pl">sz.sniadach@wp.pl</a></span>
+                            </div>
+                        </li>
+                        <li class="personal-info">
+                            <div class="personal-info__icon">
+                                <span uk-icon="icon: phone; ratio: 2"></span>
+                            </div>
+                            <div class="personal-info__text">
+                                <span><a href="tel:783419222">783 419 222</a></span>
+                            </div>
+                        </li>
+                        <li class="personal-info">
+                            <div class="personal-info__icon">
+                                <span uk-icon="icon: location; ratio: 2"></span>
+                            </div>
+                            <div class="personal-info__text">
+                                <span>Białystok</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+
+                <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
+                
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-1@s">
+                <div class="thumbnail uk-align-center">
+                    <img src="img/szymon3.png" alt="Szymon Śniadach">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

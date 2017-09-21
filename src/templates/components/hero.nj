@@ -1,0 +1,20 @@
+<section class="hero">
+    <div class="hero__content">
+        <div class="uk-overlay-primary uk-position-cover">
+            <div class="uk-position-center">
+                <div class="uk-text-center">
+                    <h2>Szymon Śniadach</h2>
+                    <p>Front-End Developer</p>
+                    <div class="social-media">
+                        <a href="https://github.com/szymonsniadach" target="_blank" class="uk-icon-button uk-margin-right" uk-icon="icon: github; ratio: 1.5"></a>
+                        <a href="https://www.linkedin.com/in/szymon-sniadach/" target="_blank" class="uk-icon-button uk-margin-right" uk-icon="icon: linkedin; ratio: 1.5"></a>
+                        <a href="https://www.facebook.com/szymon.sniadach.1" target="_blank" class="uk-icon-button" uk-icon="icon: facebook; ratio: 1.5"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-text-center uk-position-bottom">
+                <a href="#about-me" uk-icon="icon: chevron-down; ratio: 2" uk-scroll></a>
+            </div>
+        </div>
+    </div>
+</section>

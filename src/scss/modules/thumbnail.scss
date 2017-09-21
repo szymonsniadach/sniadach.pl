@@ -1,0 +1,7 @@
+.thumbnail {
+	padding: 5px;
+	background-color: #CDCDCD;
+	@media (max-width: $m-max) {
+		width: 300px;
+	}
+}

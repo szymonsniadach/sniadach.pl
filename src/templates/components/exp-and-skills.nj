@@ -1,0 +1,92 @@
+<section id="exp-and-skills" class="exp-and-skills">
+    <div class="uk-container uk-container-large">
+
+        <h2 class="uk-heading-line uk-text-center"><span>Doświadczenie i umiejętności</span></h2>
+
+        <div class="uk-flex uk-flex-center">
+                <div class="exp__icon">
+                    <img src="img/briefcase.svg" alt="">
+                </div>
+            </div>
+
+        <div class="exp">
+            <div class="exp--box">
+                <div class="exp__dot"></div>
+                <div class="exp-content">
+                    <div class="exp__title">
+                        <h3>Front-End Developer (praktyki)</h3>
+                    </div>
+                    <div class="exp__time">
+                        <p>
+                            Infinity Group Sp. z o.o.<br>
+                            17 lipiec 2017 - 15 wrzesień 2017
+                        </p>
+                    </div>
+                    <div class="exp__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp--box">
+                <div class="exp__dot"></div>
+                <div class="exp-content">
+                    <div class="exp__title">
+                        <h3>Web Developer (praktyka zawodowa)</h3>
+                    </div>
+                    <div class="exp__time">
+                        <p>
+                            Cypis.NET<br>
+                            5 październik 2015 - 30 październik 2015
+                        </p>
+                    </div>
+                    <div class="exp__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="uk-child-width-1-6@m uk-child-width-1-4@s uk-child-width-1-2" uk-grid>
+                <div>
+                    <img src="img/logos/html.png" alt="HTML" title="HTML" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/css.png" alt="CSS" title="CSS" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/bootstrap.png" alt="Bootstrap" title="Bootstrap" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/uikit.png" alt="UIkit" title="UIkit" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/sass.png" alt="SASS" title="SASS" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/js.png" alt="JavaScript" title="JavaScript" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/jq.png" alt="jQuery" title="jQuery" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/gulp.png" alt="Gulp" title="Gulp" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/github.png" alt="GitHub" title="GitHub" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/jira.png" alt="Jira" title="Jira" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/photoshop.png" alt="Photoshop" title="Photoshop" uk-tooltip="pos: bottom">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

@@ -1,0 +1,23 @@
+.personal-info-list {
+	column-count: 4;
+	@media (max-width: $xl-max) {
+		column-count: 2;
+	}
+	@media (max-width: $s-max) {
+		column-count: 1;
+	}
+}
+
+.personal-info {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	&__icon {
+		background-color: #004A71;
+		color: #FFF;
+		padding: 10px;
+	}
+	&__text {
+		padding-left: 20px;
+	}
+}

@@ -1,0 +1,12 @@
+.skills {
+    margin-top: 70px;
+    div:first-child {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        width: 130px;
+        display: table;
+        margin: 0 auto;
+    }
+}

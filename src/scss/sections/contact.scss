@@ -1,0 +1,9 @@
+.contact {
+    .personal-info-list {
+        column-count: 2;
+    }
+    &--block {
+        background-color: #FFF;
+        padding: 50px;
+    }
+}
