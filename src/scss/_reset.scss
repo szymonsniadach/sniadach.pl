@@ -2,10 +2,6 @@ body, .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Cambria Math";
 }
 
-ol, ul {
-    padding-left: 0px;
-}
-
 section {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -27,4 +23,8 @@ section {
     >:before, >:after {
         border-bottom: 1px solid $color2;
     }
+}
+
+.uk-link, a {
+    color: #666;
 }
