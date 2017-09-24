@@ -12,7 +12,7 @@
         <div class="exp">
             <div class="exp--box">
                 <div class="exp__dot"></div>
-                <div class="exp-content">
+                <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
                         <h3>Front-End Developer (praktyki)</h3>
                     </div>
@@ -31,7 +31,7 @@
             </div>
             <div class="exp--box">
                 <div class="exp__dot"></div>
-                <div class="exp-content">
+                <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
                         <h3>Web Developer (praktyka zawodowa)</h3>
                     </div>

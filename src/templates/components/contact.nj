@@ -42,14 +42,21 @@
 								</div>
 							</li>
 						</ul>
-					</div>
 
+					</div>
+					<div class="uk-flex uk-flex-center">
+						<div class="social-media">
+							<a href="https://github.com/szymonsniadach" target="_blank" class="uk-margin-right" uk-icon="icon: github; ratio: 2"></a>
+							<a href="https://www.linkedin.com/in/szymon-sniadach/" target="_blank" class="uk-margin-right" uk-icon="icon: linkedin; ratio: 2"></a>
+							<a href="https://www.facebook.com/szymon.sniadach.1" target="_blank" class="uk-margin-right" uk-icon="icon: facebook; ratio: 2"></a>
+						</div>
+					</div>
 				</div>
 
 
 				<div class="uk-width-1-2@m">
 
-					<form id="form-contact">
+					<form role="form" id="contact-form">
 						<fieldset class="uk-fieldset">
 
 							<legend class="uk-legend">Formularz kontaktowy</legend>
@@ -57,30 +64,30 @@
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: user"></span>
-									<input class="uk-input" type="text" placeholder="Imię i Nazwisko / Nazwa firmy">
+									<input class="uk-input" id="form-name" name="name" type="text" placeholder="Imię i Nazwisko / Nazwa firmy" required>
 								</div>
 							</div>
 
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: mail"></span>
-									<input class="uk-input" type="text" placeholder="Mail">
+									<input class="uk-input" id="form-email" name="email" type="email" placeholder="Email" required>
 								</div>
 							</div>
 
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: phone"></span>
-									<input class="uk-input" type="text" placeholder="Telefon">
+									<input class="uk-input" id="form-phone" name="phone" type="number" placeholder="Telefon">
 								</div>
 							</div>
 
 							<div class="uk-margin">
-								<textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+								<textarea class="uk-textarea" id="form-message" name="message" rows="5" placeholder="Treść wiadomości" required></textarea>
 							</div>
 
-							<button type="submit" class="my-button" form="form-contact" value="Wyślij wiadomość">Wyślij wiadomość</button>
-
+							<button type="submit" id="submit-form" class="my-button" form="contact-form">Wyślij wiadomość</button>
+							
 						</fieldset>
 					</form>
 

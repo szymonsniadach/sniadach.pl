@@ -1,6 +1,9 @@
 .contact {
     .personal-info-list {
         column-count: 2;
+        @media (max-width: $s-max) {
+            column-count: 1;
+        }
     }
     &--block {
         background-color: #FFF;

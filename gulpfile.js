@@ -83,12 +83,17 @@ gulp.task('img', function () {
 		.pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('php', function () {
+	return gulp.src('src/**/*.php')
+		.pipe(gulp.dest('dist'));
+});
+
 gulp.task('clean', function () {
 	return del(['dist']);
 });
 
 gulp.task('build', function () {
-	sequence('clean', ['html', 'css', 'js', 'img']);
+	sequence('clean', ['html', 'css', 'js', 'img', 'php']);
 });
 
 gulp.task('default', ['serve']);

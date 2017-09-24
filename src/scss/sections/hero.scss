@@ -16,4 +16,9 @@
     .uk-overlay-primary {
         height: 100vh;
     }
+    .social-media {
+        @media (max-width: $m-max) {
+            display: none;
+        }
+    }
 }

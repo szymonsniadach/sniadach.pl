@@ -8,12 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
 </head>
 <body>
 
 	{% block content %} {% endblock %}
 
-	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/uikit/uikit.min.js"></script>
     <script src="js/uikit/uikit-icons.min.js"></script>
     <script src="js/main.min.js"></script>
