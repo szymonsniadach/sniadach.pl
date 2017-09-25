@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/uikit/uikit.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
 
+    <meta name="description" content="Szymon Śniadach - Front-End Developer. Zajmuję się tworzeniem stron internetowych.">
+
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 </head>
@@ -38,7 +40,7 @@
     <div class="hero__content">
         <div class="uk-overlay-primary uk-position-cover">
             <div class="uk-position-center">
-                <div class="uk-text-center">
+                <div class="uk-text-center" uk-scrollspy="cls: uk-animation-scale-down; repeat: true; delay: 800;">
                     <h2>Szymon Śniadach</h2>
                     <p>Front-End Developer</p>
                     <div class="social-media">
@@ -64,7 +66,7 @@
 
                 <div class="uk-flex uk-flex-center">
                     <ul class="personal-info-list">
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 300;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: user; ratio: 2"></span>
                             </div>
@@ -72,7 +74,7 @@
                                 <span>Szymon Śniadach</span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 600;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: mail; ratio: 2"></span>
                             </div>
@@ -80,7 +82,7 @@
                                 <span><a href="mailto:sz.sniadach@wp.pl">sz.sniadach@wp.pl</a></span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 900;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: phone; ratio: 2"></span>
                             </div>
@@ -88,7 +90,7 @@
                                 <span><a href="tel:783419222">783 419 222</a></span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 1200;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: location; ratio: 2"></span>
                             </div>
@@ -100,21 +102,25 @@
 
                 </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.</p>
+                <p>
+                    Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam łącznie 3 miesiące doświadczenia komercyjnego. 
+                </p>
+                <p>
+                    Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Od października 2017 roku zaczynam studia zaoczne w Warszawie również na kierunku Informatyka. Obecnie mieszkam w Białymstoku i szukam pracy jako Junior Front-End Developer. Możliwość relokacji do Warszawy.
+                </p>
 
-                <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
+                <div class="uk-inline">
+                    <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
+                    <div uk-dropdown="mode: click">
+                        <ul class="uk-list uk-text-center">
+                            <a href="pdf/Szymon Śniadach - CV PL.pdf"><li>PL</li></a><br>
+                            <a href="pdf/Szymon Śniadach - CV EN.pdf"><li>EN</li></a>
+                        </ul>
+                    </div>
+                </div>
                 
             </div>
-            <div class="uk-width-1-4@m uk-width-1-1@s">
+            <div class="uk-width-1-4@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="thumbnail uk-align-center">
                     <img src="img/szymon3.png" alt="Szymon Śniadach">
                 </div>
@@ -134,7 +140,7 @@
             </div>
 
         <div class="exp">
-            <div class="exp--box">
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -148,16 +154,17 @@
                     </div>
                     <div class="exp__text">
                         <p>
-                            - zapoznanie z systemem Sitecore, OpenText<br>
+                            - tworzenie stron internetowych (HTML, CSS, JavaScript, Gulp, SASS)<br>
+                            - dostosywanie tworzonych stron pod różne urządzenia mobilne<br>
                             - tworzenie mailingów, banerów dla kampanii reklamowych<br>
+                            - workflow (git, jira)<br>
                             - testowanie<br>
-                            - tworzenie stron internetowych<br>
-                            - workflow (git, jira)
+                            - zapoznanie z systemem Sitecore, OpenText
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="exp--box">
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 600;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -171,16 +178,17 @@
                     </div>
                     <div class="exp__text">
                         <p>
-                            - tworzenie mailingów<br>
                             - tworzenie stron internetowych<br>
-                            - tworzenie sklepów internetowych
+                            - tworzenie mailingów<br>
+                            - tworzenie sklepów internetowych<br>
+                            - dostosywanie tworzonych stron pod różne urządzenia mobilne
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="skills">
+        <div class="skills" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
             <div class="uk-child-width-1-6@m uk-child-width-1-4@s uk-child-width-1-2" uk-grid>
                 <div>
                     <img src="img/logos/html.png" alt="HTML" title="HTML" uk-tooltip="pos: bottom">
@@ -226,7 +234,7 @@
         <h2 class="uk-heading-line uk-text-center"><span>Portfolio</span></h2>
 
         <div uk-grid>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
 
@@ -273,7 +281,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 600;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/rekrutacja.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
@@ -316,7 +324,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 900;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/nartolandia.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="nartolandia">
@@ -365,7 +373,7 @@
 
 		<h2 class="uk-heading-line uk-text-center"><span>Kontakt</span></h2>
 
-		<div class="contact--block uk-box-shadow-large">
+		<div class="contact--block uk-box-shadow-large" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 300;">
 			<div uk-grid>
 				<div class="uk-width-1-2@m">
 					<div class="uk-flex uk-flex-center">

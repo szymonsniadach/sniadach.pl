@@ -88,12 +88,17 @@ gulp.task('php', function () {
 		.pipe(gulp.dest('dist'));
 });
 
+gulp.task('pdf', function () {
+	return gulp.src('src/**/*.pdf')
+		.pipe(gulp.dest('dist'));
+});
+
 gulp.task('clean', function () {
 	return del(['dist']);
 });
 
 gulp.task('build', function () {
-	sequence('clean', ['html', 'css', 'js', 'img', 'php']);
+	sequence('clean', ['html', 'css', 'js', 'img', 'php', 'pdf']);
 });
 
 gulp.task('default', ['serve']);

@@ -4,7 +4,7 @@
         <h2 class="uk-heading-line uk-text-center"><span>Portfolio</span></h2>
 
         <div uk-grid>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
 
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 600;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/rekrutacja.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s">
+            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 900;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/nartolandia.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="nartolandia">

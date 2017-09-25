@@ -1,4 +1,11 @@
 .about-me {
 	background: url('../img/bg-section.jpg') no-repeat;
 	background-size: cover;
+	
+	.thumbnail {
+		&:hover {
+			background-color: $color3;
+			transition: background-color .5s ease;
+		}
+	}
 }

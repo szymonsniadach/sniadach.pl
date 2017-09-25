@@ -3,7 +3,7 @@
 
 		<h2 class="uk-heading-line uk-text-center"><span>Kontakt</span></h2>
 
-		<div class="contact--block uk-box-shadow-large">
+		<div class="contact--block uk-box-shadow-large" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 300;">
 			<div uk-grid>
 				<div class="uk-width-1-2@m">
 					<div class="uk-flex uk-flex-center">

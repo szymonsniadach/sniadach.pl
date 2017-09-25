@@ -8,7 +8,7 @@
 
                 <div class="uk-flex uk-flex-center">
                     <ul class="personal-info-list">
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 300;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: user; ratio: 2"></span>
                             </div>
@@ -16,7 +16,7 @@
                                 <span>Szymon Śniadach</span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 600;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: mail; ratio: 2"></span>
                             </div>
@@ -24,7 +24,7 @@
                                 <span><a href="mailto:sz.sniadach@wp.pl">sz.sniadach@wp.pl</a></span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 900;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: phone; ratio: 2"></span>
                             </div>
@@ -32,7 +32,7 @@
                                 <span><a href="tel:783419222">783 419 222</a></span>
                             </div>
                         </li>
-                        <li class="personal-info">
+                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 1200;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: location; ratio: 2"></span>
                             </div>
@@ -44,21 +44,25 @@
 
                 </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.</p>
+                <p>
+                    Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam łącznie 3 miesiące doświadczenia komercyjnego. 
+                </p>
+                <p>
+                    Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Od października 2017 roku zaczynam studia zaoczne w Warszawie również na kierunku Informatyka. Obecnie mieszkam w Białymstoku i szukam pracy jako Junior Front-End Developer. Możliwość relokacji do Warszawy.
+                </p>
 
-                <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
+                <div class="uk-inline">
+                    <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
+                    <div uk-dropdown="mode: click">
+                        <ul class="uk-list uk-text-center">
+                            <a href="pdf/Szymon Śniadach - CV PL.pdf"><li>PL</li></a><br>
+                            <a href="pdf/Szymon Śniadach - CV EN.pdf"><li>EN</li></a>
+                        </ul>
+                    </div>
+                </div>
                 
             </div>
-            <div class="uk-width-1-4@m uk-width-1-1@s">
+            <div class="uk-width-1-4@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="thumbnail uk-align-center">
                     <img src="img/szymon3.png" alt="Szymon Śniadach">
                 </div>

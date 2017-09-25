@@ -2,7 +2,7 @@
     <div class="hero__content">
         <div class="uk-overlay-primary uk-position-cover">
             <div class="uk-position-center">
-                <div class="uk-text-center">
+                <div class="uk-text-center" uk-scrollspy="cls: uk-animation-scale-down; repeat: true; delay: 800;">
                     <h2>Szymon Śniadach</h2>
                     <p>Front-End Developer</p>
                     <div class="social-media">
