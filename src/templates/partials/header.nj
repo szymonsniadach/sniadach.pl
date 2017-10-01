@@ -11,7 +11,7 @@
         <ul>
             <li><a href="#contact" uk-scroll><span uk-icon="icon: mail; ratio: 1.5" title="Kontakt" uk-tooltip="pos: left"></span></a></li>
             <li><a href="#portfolio" uk-scroll><span uk-icon="icon: album; ratio: 1.5" title="Portfolio" uk-tooltip="pos: right"></span></a></li>
-            <li><a href="#" uk-scroll><span uk-icon="icon: laptop; ratio: 1.5" title="Doświadczenie" uk-tooltip="pos: right"></span></a></li>
+            <li><a href="#exp-and-skills" uk-scroll><span uk-icon="icon: laptop; ratio: 1.5" title="Doświadczenie" uk-tooltip="pos: right"></span></a></li>
             <li><a href="#about-me" uk-scroll><span uk-icon="icon: user; ratio: 1.5" title="O mnie" uk-tooltip="pos: right"></span></a></li>
             <li><a href="#" uk-scroll><span uk-icon="icon: home; ratio: 1.5" title="Strona główna" uk-tooltip="pos: right"></span></a></li>
         </ul>

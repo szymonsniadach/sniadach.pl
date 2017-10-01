@@ -64,7 +64,7 @@
             </div>
             <div class="uk-width-1-4@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="thumbnail uk-align-center">
-                    <img src="img/szymon3.png" alt="Szymon Śniadach">
+                    <img src="img/szymon.png" alt="Szymon Śniadach">
                 </div>
             </div>
         </div>
