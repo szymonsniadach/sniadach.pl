@@ -1,8 +1,8 @@
 # sniadach.pl
 
-Moja strona wizytówka.
+My website.
 
-Użyte technologie:
+Technologies:
 - HTML
 - CSS
 - framework UIkit
