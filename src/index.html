@@ -61,66 +61,83 @@
 		<section id="about-me" class="about-me">
     <div class="uk-container uk-container-large">
 
-        <h2 class="uk-heading-line uk-text-center"><span>O mnie</span></h2>
+        <h2 class="uk-heading-line uk-text-center">
+            <span>O mnie</span>
+        </h2>
 
         <div uk-grid>
             <div class="uk-width-3-4@m uk-width-1-1@s">
 
-                <div class="uk-flex uk-flex-center">
-                    <ul class="personal-info-list">
-                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 300;">
+                <div class="uk-flex uk-flex-center" uk-grid>
+
+                    <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
+                        <div class="personal-info">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: user; ratio: 2"></span>
                             </div>
                             <div class="personal-info__text">
                                 <span>Szymon Śniadach</span>
                             </div>
-                        </li>
-                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 600;">
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 600;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: mail; ratio: 2"></span>
                             </div>
                             <div class="personal-info__text">
                                 <span>sz.sniadach[małpa]wp.pl</span>
                             </div>
-                        </li>
-                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 900;">
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 900;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: phone; ratio: 2"></span>
                             </div>
                             <div class="personal-info__text">
-                                <span><a href="tel:783419222">783 419 222</a></span>
+                                <span>
+                                    <a href="tel:783419222">783 419 222</a>
+                                </span>
                             </div>
-                        </li>
-                        <li class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 1200;">
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 1200;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: location; ratio: 2"></span>
                             </div>
                             <div class="personal-info__text">
                                 <span>Białystok</span>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
 
                 </div>
 
                 <p>
-                    Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam łącznie 3 miesiące doświadczenia komercyjnego. 
+                    Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam
+                    łącznie rok doświadczenia komercyjnego.
                 </p>
                 <p>
-                    Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Od października 2017 roku zaczynam studia zaoczne w Warszawie również na kierunku Informatyka. Obecnie mieszkam w Białymstoku i szukam pracy jako Junior Front-End Developer. Możliwość relokacji do Warszawy.
+                    Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Szukam pracy jako Front-End Developer.
                 </p>
 
                 <div class="uk-inline">
-                    <button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button>
-                    <div uk-dropdown="mode: click">
+                    <a href="pdf/Szymon Śniadach - CV.pdf"><button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button></a>
+                    <!-- <div uk-dropdown="mode: click">
                         <ul class="uk-list uk-text-center">
-                            <a href="pdf/Szymon Śniadach - CV PL.pdf"><li>PL</li></a><br>
-                            <a href="pdf/Szymon Śniadach - CV EN.pdf"><li>EN</li></a>
+                            <a href="pdf/Szymon Śniadach - CV PL.pdf">
+                                <li>PL</li>
+                            </a>
+                            <br>
+                            <a href="pdf/Szymon Śniadach - CV EN.pdf">
+                                <li>EN</li>
+                            </a>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
-                
+
             </div>
             <div class="uk-width-1-4@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="thumbnail uk-align-center">
@@ -133,16 +150,42 @@
 		<section id="exp-and-skills" class="exp-and-skills">
     <div class="uk-container uk-container-large">
 
-        <h2 class="uk-heading-line uk-text-center"><span>Doświadczenie i umiejętności</span></h2>
+        <h2 class="uk-heading-line uk-text-center">
+            <span>Doświadczenie i umiejętności</span>
+        </h2>
 
         <div class="uk-flex uk-flex-center">
-                <div class="exp__icon">
-                    <img src="img/briefcase.svg" alt="">
-                </div>
+            <div class="exp__icon">
+                <img src="img/briefcase.svg" alt="">
             </div>
+        </div>
 
         <div class="exp">
             <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 300;">
+                <div class="exp__dot"></div>
+                <div class="exp-content uk-box-shadow-medium">
+                    <div class="exp__title">
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="exp__time">
+                        <p>
+                            ADSIRA SP. Z. O. O. S K
+                            <br> 23 październik 2017 - obecnie
+                        </p>
+                    </div>
+                    <div class="exp__text">
+                        <p>
+                            - tworzenie stron internetowych od strony back-endu (PHP, framework Codeigniter)
+                            <br> - tworzenie stron internetowych od strony front-endu (HTML, CSS, JS) z wykorzystaniem narzędzi
+                            automatyzujących pracę (Gulp)
+                            <br> - dostosowanie tworzonych stron pod różne urządzenia mobilne
+                            <br> - pisanie zgodnie z metodologią BEM
+                            <br> - workflow (git, jira)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -150,23 +193,23 @@
                     </div>
                     <div class="exp__time">
                         <p>
-                            Infinity Group Sp. z o.o.<br>
-                            17 lipiec 2017 - 15 wrzesień 2017
+                            Infinity Group Sp. z o.o.
+                            <br> 17 lipiec 2017 - 15 wrzesień 2017
                         </p>
                     </div>
                     <div class="exp__text">
                         <p>
-                            - tworzenie stron internetowych (HTML, CSS, JavaScript, Gulp, SASS)<br>
-                            - dostosywanie tworzonych stron pod różne urządzenia mobilne<br>
-                            - tworzenie mailingów, banerów dla kampanii reklamowych<br>
-                            - workflow (git, jira)<br>
-                            - testowanie<br>
-                            - zapoznanie z systemem Sitecore, OpenText
+                            - tworzenie stron internetowych (HTML, CSS, JavaScript, Gulp, SASS)
+                            <br> - dostosywanie tworzonych stron pod różne urządzenia mobilne
+                            <br> - tworzenie mailingów, banerów dla kampanii reklamowych
+                            <br> - workflow (git, jira)
+                            <br> - testowanie
+                            <br> - zapoznanie z systemem Sitecore, OpenText
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 600;">
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 600;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -174,16 +217,16 @@
                     </div>
                     <div class="exp__time">
                         <p>
-                            Cypis.NET<br>
-                            5 październik 2015 - 30 październik 2015
+                            Cypis.NET
+                            <br> 5 październik 2015 - 30 październik 2015
                         </p>
                     </div>
                     <div class="exp__text">
                         <p>
-                            - tworzenie stron internetowych<br>
-                            - tworzenie mailingów<br>
-                            - tworzenie sklepów internetowych<br>
-                            - dostosywanie tworzonych stron pod różne urządzenia mobilne
+                            - tworzenie stron internetowych
+                            <br> - tworzenie mailingów
+                            <br> - tworzenie sklepów internetowych
+                            <br> - dostosywanie tworzonych stron pod różne urządzenia mobilne
                         </p>
                     </div>
                 </div>
@@ -225,6 +268,9 @@
                 <div>
                     <img src="img/logos/photoshop.png" alt="Photoshop" title="Photoshop" uk-tooltip="pos: bottom">
                 </div>
+                <div>
+                    <img src="img/logos/codeigniter.png" alt="Codeigniter" title="Codeigniter" uk-tooltip="pos: bottom">
+                </div>
             </div>
         </div>
 
@@ -233,24 +279,30 @@
 		<section id="portfolio" class="portfolio">
     <div class="uk-container uk-container-large">
 
-        <h2 class="uk-heading-line uk-text-center"><span>Portfolio</span></h2>
+        <h2 class="uk-heading-line uk-text-center">
+            <span>Portfolio</span>
+        </h2>
 
         <div uk-grid>
             <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
 
-                        <img src="img/portfolio/sniadach.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
-                        
+                        <img src="img/portfolio/strona-parafialna.png" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+
                         <div class="uk-overlay-primary uk-position-cover"></div>
                         <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
 
-                                <p class="uk-h4">sniadach.pl - strona wizytówka</p>
-                                <a href="http://www.sniadach.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
-                                <a href="#modal3" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+                                <p class="uk-h4">Strona parafialna (w trakcie tworzenia)</p>
+                                <a href="http://www.sniadach.pl/projekty/strona-parafialna" target="_blank">
+                                    <span uk-icon="icon: link; ratio: 2"></span>
+                                </a>
+                                <a href="#modal4" uk-toggle>
+                                    <span uk-icon="icon: search; ratio: 2"></span>
+                                </a>
 
-                                <div id="modal3" class="uk-modal-container" uk-modal>
+                                <div id="modal4" class="uk-modal-container" uk-modal>
                                     <div class="uk-modal-dialog">
                                         <button class="uk-modal-close-default" type="button" uk-close></button>
                                         <div class="uk-modal-header">
@@ -259,15 +311,23 @@
                                         <div class="uk-modal-body">
                                             <div class="uk-child-width-1-2@m" uk-grid>
                                                 <div class="uk-flex uk-flex-center">
-                                                    <img src="img/portfolio/modals/sniadach.png" alt="">
+                                                    <img src="img/portfolio/modals/strona-parafialna.png" alt="strona parafialna">
                                                 </div>
                                                 <div>
-                                                    <p>Moja strona wizytówka.</p>
-                                                    <p>Użyte technologie:<br> - HTML<br> - CSS<br> - framework UIkit<br> - Gulp<br>- SASS<br>- jQuery</p>
+                                                    <p>W trakcie tworzenia</p>
                                                     <p>
+                                                        TODO:<br>
+                                                        - dokończenie strony głównej<br>
+                                                        - podstrona<br>
+                                                        - panel administratora do zarządzania treścią<br>
+                                                    </p>
                                                         <p>
-                                                            <a href="http://www.sniadach.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
-                                                            <a href="https://github.com/szymonsniadach/sniadach.pl" target="_blank"><span uk-icon="icon: github; ratio: 2"></span></a>
+                                                            <a href="http://www.sniadach.pl/projekty/strona-parafialna" target="_blank">
+                                                                <span uk-icon="icon: link; ratio: 2"></span>
+                                                            </a>
+                                                            <a href="https://github.com/szymonsniadach/parish-site" target="_blank">
+                                                                <span uk-icon="icon: github; ratio: 2"></span>
+                                                            </a>
                                                         </p>
                                                 </div>
                                             </div>
@@ -283,7 +343,68 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 600;">
+            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+
+                        <img src="img/portfolio/sniadach.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                            <div class="uk-position-center">
+
+                                <p class="uk-h4">sniadach.pl - strona wizytówka</p>
+                                <a href="http://www.sniadach.pl" target="_blank">
+                                    <span uk-icon="icon: link; ratio: 2"></span>
+                                </a>
+                                <a href="#modal3" uk-toggle>
+                                    <span uk-icon="icon: search; ratio: 2"></span>
+                                </a>
+
+                                <div id="modal3" class="uk-modal-container" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Strona wizytówka</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <div class="uk-child-width-1-2@m" uk-grid>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <img src="img/portfolio/modals/sniadach.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p>Moja strona wizytówka.</p>
+                                                    <p>Użyte technologie:
+                                                        <br> - HTML
+                                                        <br> - CSS
+                                                        <br> - framework UIkit
+                                                        <br> - Gulp
+                                                        <br>- SASS
+                                                        <br>- jQuery</p>
+                                                    <p>
+                                                        <p>
+                                                            <a href="http://www.sniadach.pl" target="_blank">
+                                                                <span uk-icon="icon: link; ratio: 2"></span>
+                                                            </a>
+                                                            <a href="https://github.com/szymonsniadach/sniadach.pl" target="_blank">
+                                                                <span uk-icon="icon: github; ratio: 2"></span>
+                                                            </a>
+                                                        </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 600;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/rekrutacja.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
@@ -291,8 +412,12 @@
                         <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
                                 <p class="uk-h4">zadanie rekrutacyjne</p>
-                                <a href="http://www.sniadach.pl/projekty/zadanie-rekrutacyjne" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
-                                <a href="#modal2" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+                                <a href="http://www.sniadach.pl/projekty/zadanie-rekrutacyjne" target="_blank">
+                                    <span uk-icon="icon: link; ratio: 2"></span>
+                                </a>
+                                <a href="#modal2" uk-toggle>
+                                    <span uk-icon="icon: search; ratio: 2"></span>
+                                </a>
 
                                 <div id="modal2" class="uk-modal-container" uk-modal>
                                     <div class="uk-modal-dialog">
@@ -306,11 +431,21 @@
                                                     <img src="img/portfolio/modals/zadanie-rekrutacyjne.png" alt="">
                                                 </div>
                                                 <div>
-                                                    <p>Projekt stworzony na potrzeby rekrutacji do firmy Infinity Group. Z PSD do HTML.</p>
-                                                    <p>Użyte technologie:<br> - HTML<br> - CSS<br> - framework UIkit<br> - Gulp<br>                                                        - SASS</p>
+                                                    <p>Projekt stworzony na potrzeby rekrutacji do firmy Infinity Group. Z PSD
+                                                        do HTML.</p>
+                                                    <p>Użyte technologie:
+                                                        <br> - HTML
+                                                        <br> - CSS
+                                                        <br> - framework UIkit
+                                                        <br> - Gulp
+                                                        <br> - SASS</p>
                                                     <p>
-                                                        <a href="http://sniadach.pl/projekty/zadanie-rekrutacyjne/" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
-                                                        <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne" target="_blank"><span uk-icon="icon: github; ratio: 2"></span></a>
+                                                        <a href="http://sniadach.pl/projekty/zadanie-rekrutacyjne/" target="_blank">
+                                                            <span uk-icon="icon: link; ratio: 2"></span>
+                                                        </a>
+                                                        <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne" target="_blank">
+                                                            <span uk-icon="icon: github; ratio: 2"></span>
+                                                        </a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -326,7 +461,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s"uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 900;">
+            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 900;">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/portfolio/nartolandia.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="nartolandia">
@@ -334,8 +469,12 @@
                         <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
                                 <p class="uk-h4">Nartolandia - wypożyczalnia nart</p>
-                                <a href="http://www.nartolandia.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
-                                <a href="#modal1" uk-toggle><span uk-icon="icon: search; ratio: 2"></span></a>
+                                <a href="http://www.nartolandia.pl" target="_blank">
+                                    <span uk-icon="icon: link; ratio: 2"></span>
+                                </a>
+                                <a href="#modal1" uk-toggle>
+                                    <span uk-icon="icon: search; ratio: 2"></span>
+                                </a>
 
                                 <div id="modal1" class="uk-modal-container" uk-modal>
                                     <div class="uk-modal-dialog">
@@ -351,7 +490,9 @@
                                                 <div>
                                                     <p>Projekt stworzony w CMS Wordpress.</p>
                                                     <p>
-                                                        <a href="http://www.nartolandia.pl" target="_blank"><span uk-icon="icon: link; ratio: 2"></span></a>
+                                                        <a href="http://www.nartolandia.pl" target="_blank">
+                                                            <span uk-icon="icon: link; ratio: 2"></span>
+                                                        </a>
                                                     </p>
                                                 </div>
                                             </div>

@@ -11,7 +11,6 @@
 .personal-info {
 	display: flex;
 	align-items: center;
-	padding: 20px;
 	&__icon {
 		background-color: #004A71;
 		color: #FFF;
@@ -19,5 +18,11 @@
 	}
 	&__text {
 		padding-left: 20px;
+	}
+}
+
+@media (min-width: $xl) {
+	.personal-info {
+		padding: 20px;
 	}
 }

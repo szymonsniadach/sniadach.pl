@@ -1,16 +1,42 @@
 <section id="exp-and-skills" class="exp-and-skills">
     <div class="uk-container uk-container-large">
 
-        <h2 class="uk-heading-line uk-text-center"><span>Doświadczenie i umiejętności</span></h2>
+        <h2 class="uk-heading-line uk-text-center">
+            <span>Doświadczenie i umiejętności</span>
+        </h2>
 
         <div class="uk-flex uk-flex-center">
-                <div class="exp__icon">
-                    <img src="img/briefcase.svg" alt="">
-                </div>
+            <div class="exp__icon">
+                <img src="img/briefcase.svg" alt="">
             </div>
+        </div>
 
         <div class="exp">
             <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 300;">
+                <div class="exp__dot"></div>
+                <div class="exp-content uk-box-shadow-medium">
+                    <div class="exp__title">
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="exp__time">
+                        <p>
+                            ADSIRA SP. Z. O. O. S K
+                            <br> 23 październik 2017 - obecnie
+                        </p>
+                    </div>
+                    <div class="exp__text">
+                        <p>
+                            - tworzenie stron internetowych od strony back-endu (PHP, framework Codeigniter)
+                            <br> - tworzenie stron internetowych od strony front-endu (HTML, CSS, JS) z wykorzystaniem narzędzi
+                            automatyzujących pracę (Gulp)
+                            <br> - dostosowanie tworzonych stron pod różne urządzenia mobilne
+                            <br> - pisanie zgodnie z metodologią BEM
+                            <br> - workflow (git, jira)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -18,23 +44,23 @@
                     </div>
                     <div class="exp__time">
                         <p>
-                            Infinity Group Sp. z o.o.<br>
-                            17 lipiec 2017 - 15 wrzesień 2017
+                            Infinity Group Sp. z o.o.
+                            <br> 17 lipiec 2017 - 15 wrzesień 2017
                         </p>
                     </div>
                     <div class="exp__text">
                         <p>
-                            - tworzenie stron internetowych (HTML, CSS, JavaScript, Gulp, SASS)<br>
-                            - dostosywanie tworzonych stron pod różne urządzenia mobilne<br>
-                            - tworzenie mailingów, banerów dla kampanii reklamowych<br>
-                            - workflow (git, jira)<br>
-                            - testowanie<br>
-                            - zapoznanie z systemem Sitecore, OpenText
+                            - tworzenie stron internetowych (HTML, CSS, JavaScript, Gulp, SASS)
+                            <br> - dostosywanie tworzonych stron pod różne urządzenia mobilne
+                            <br> - tworzenie mailingów, banerów dla kampanii reklamowych
+                            <br> - workflow (git, jira)
+                            <br> - testowanie
+                            <br> - zapoznanie z systemem Sitecore, OpenText
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 600;">
+            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 600;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -42,16 +68,16 @@
                     </div>
                     <div class="exp__time">
                         <p>
-                            Cypis.NET<br>
-                            5 październik 2015 - 30 październik 2015
+                            Cypis.NET
+                            <br> 5 październik 2015 - 30 październik 2015
                         </p>
                     </div>
                     <div class="exp__text">
                         <p>
-                            - tworzenie stron internetowych<br>
-                            - tworzenie mailingów<br>
-                            - tworzenie sklepów internetowych<br>
-                            - dostosywanie tworzonych stron pod różne urządzenia mobilne
+                            - tworzenie stron internetowych
+                            <br> - tworzenie mailingów
+                            <br> - tworzenie sklepów internetowych
+                            <br> - dostosywanie tworzonych stron pod różne urządzenia mobilne
                         </p>
                     </div>
                 </div>
@@ -92,6 +118,9 @@
                 </div>
                 <div>
                     <img src="img/logos/photoshop.png" alt="Photoshop" title="Photoshop" uk-tooltip="pos: bottom">
+                </div>
+                <div>
+                    <img src="img/logos/codeigniter.png" alt="Codeigniter" title="Codeigniter" uk-tooltip="pos: bottom">
                 </div>
             </div>
         </div>
