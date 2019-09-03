@@ -9,7 +9,3 @@ Technologies:
 - SASS
 - jQuery
 - Gulp
-
-
-TODO:
-- repair mobile view
