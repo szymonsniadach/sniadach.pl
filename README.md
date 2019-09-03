@@ -6,10 +6,6 @@ Technologies:
 - HTML
 - CSS
 - framework UIkit
-- SASS
+- SCSS
 - jQuery
 - Gulp
-
-
-TODO:
-- repair mobile view
