@@ -7,7 +7,7 @@
 
         <div class="uk-flex uk-flex-center">
             <div class="exp__icon">
-                <img src="img/briefcase.svg" alt="">
+                <img src="img/work.png" alt="">
             </div>
         </div>
 
@@ -31,7 +31,7 @@
                         <ul>
                             <li>tworzenie stron internetowych w oparciu o technologię Angular</li>
                             <li>optymalizacja strony w Angular</li>
-                            <li>zapewnienie kompatybilności wytwarzanego oprogramowania z przeglądarkami (Chrome, FF, Edge, IE)<br></li>
+                            <li>zapewnienie kompatybilności stron internetowych z przeglądarkami (Chrome, FF, Edge, IE)<br></li>
                             <li>dbanie o wysoką jakość kodu</li>
                             <li>kontakt z klientem i współpraca z zespołem projektowym</li>
                         </ul>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 300;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 300;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 600;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 600;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">

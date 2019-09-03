@@ -9,7 +9,7 @@
 					<div uk-grid>
 
 						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
-							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
+							<div class="personal-info">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: user; ratio: 2"></span>
 								</div>
@@ -19,7 +19,7 @@
 							</div>
 						</div>
 						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
-							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 600;">
+							<div class="personal-info">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: mail; ratio: 2"></span>
 								</div>
@@ -29,7 +29,7 @@
 							</div>
 						</div>
 						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
-							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 900;">
+							<div class="personal-info">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: phone; ratio: 2"></span>
 								</div>
@@ -41,7 +41,7 @@
 							</div>
 						</div>
 						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
-							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 1200;">
+							<div class="personal-info">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: location; ratio: 2"></span>
 								</div>
