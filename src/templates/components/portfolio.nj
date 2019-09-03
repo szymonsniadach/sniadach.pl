@@ -5,18 +5,71 @@
             <span>Portfolio</span>
         </h2>
 
-        <div uk-grid>
-            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
+        <div uk-grid uk-scrollspy="cls: uk-animation-fade; delay: 300;">
+            <div class="uk-width-1-3@m uk-width-1-1@s">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/portfolio/wotax.jpg"
+                            class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div
+                            class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                            <div class="uk-position-center uk-padding-small">
+                                <p class="portfolio__title-project">WoTax - Dystrybutor sprzętu ostrzegawczo sygnalizacyjnego</p>
+                                <a href="https://wotax.pl" target="_blank">
+                                    <span uk-icon="icon: link; ratio: 2"></span>
+                                </a>
+                                <a href="#modal5" uk-toggle>
+                                    <span uk-icon="icon: search; ratio: 2"></span>
+                                </a>
+
+                                <div id="modal5" class="uk-modal-container" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Zadanie rekrutacyjne</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <div class="uk-child-width-1-2@m" uk-grid>
+                                                <div class="uk-flex uk-flex-center">
+                                                    <img src="img/portfolio/wotax.jpg" alt="WoTax - Dystrybutor sprzętu ostrzegawczo - sygnalizacyjnego">
+                                                </div>
+                                                <div>
+                                                    <p>Strona stworzona w systemie Wordpress</p>
+                                                    <p>
+                                                        <a href="https://wotax.pl"
+                                                            target="_blank">
+                                                            <span uk-icon="icon: link; ratio: 2"></span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close"
+                                                type="button">Zamknij</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-1@s">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
 
-                        <img src="img/portfolio/strona-parafialna.png" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <img src="img/portfolio/strona-parafialna.png"
+                            class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
 
                         <div class="uk-overlay-primary uk-position-cover"></div>
-                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                        <div
+                            class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
 
-                                <p class="uk-h4">Strona parafialna (w trakcie tworzenia)</p>
+                                <p class="portfolio__title-project">Strona parafialna</p>
                                 <a href="http://www.sniadach.pl/projekty/strona-parafialna" target="_blank">
                                     <span uk-icon="icon: link; ratio: 2"></span>
                                 </a>
@@ -33,29 +86,23 @@
                                         <div class="uk-modal-body">
                                             <div class="uk-child-width-1-2@m" uk-grid>
                                                 <div class="uk-flex uk-flex-center">
-                                                    <img src="img/portfolio/modals/strona-parafialna.png" alt="strona parafialna">
+                                                    <img src="img/portfolio/modals/strona-parafialna.png"
+                                                        alt="strona parafialna">
                                                 </div>
                                                 <div>
-                                                    <p>W trakcie tworzenia</p>
+                                                    <p>Szablon strony głównej parafii</p>
                                                     <p>
-                                                        TODO:<br>
-                                                        - dokończenie strony głównej<br>
-                                                        - podstrona<br>
-                                                        - panel administratora do zarządzania treścią<br>
+                                                        <a href="http://www.sniadach.pl/projekty/strona-parafialna"
+                                                            target="_blank">
+                                                            <span uk-icon="icon: link; ratio: 2"></span>
+                                                        </a>
                                                     </p>
-                                                        <p>
-                                                            <a href="http://www.sniadach.pl/projekty/strona-parafialna" target="_blank">
-                                                                <span uk-icon="icon: link; ratio: 2"></span>
-                                                            </a>
-                                                            <a href="https://github.com/szymonsniadach/parish-site" target="_blank">
-                                                                <span uk-icon="icon: github; ratio: 2"></span>
-                                                            </a>
-                                                        </p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="uk-modal-footer uk-text-right">
-                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                            <button class="uk-button uk-button-default uk-modal-close"
+                                                type="button">Zamknij</button>
                                         </div>
                                     </div>
                                 </div>
@@ -65,17 +112,19 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
+            <div class="uk-width-1-3@m uk-width-1-1@s">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
 
-                        <img src="img/portfolio/sniadach.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <img src="img/portfolio/sniadach.jpg"
+                            class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
 
                         <div class="uk-overlay-primary uk-position-cover"></div>
-                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                        <div
+                            class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
 
-                                <p class="uk-h4">sniadach.pl - strona wizytówka</p>
+                                <p class="portfolio__title-project">sniadach.pl - strona wizytówka</p>
                                 <a href="http://www.sniadach.pl" target="_blank">
                                     <span uk-icon="icon: link; ratio: 2"></span>
                                 </a>
@@ -108,7 +157,8 @@
                                                             <a href="http://www.sniadach.pl" target="_blank">
                                                                 <span uk-icon="icon: link; ratio: 2"></span>
                                                             </a>
-                                                            <a href="https://github.com/szymonsniadach/sniadach.pl" target="_blank">
+                                                            <a href="https://github.com/szymonsniadach/sniadach.pl"
+                                                                target="_blank">
                                                                 <span uk-icon="icon: github; ratio: 2"></span>
                                                             </a>
                                                         </p>
@@ -116,7 +166,8 @@
                                             </div>
                                         </div>
                                         <div class="uk-modal-footer uk-text-right">
-                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                            <button class="uk-button uk-button-default uk-modal-close"
+                                                type="button">Zamknij</button>
                                         </div>
                                     </div>
                                 </div>
@@ -126,14 +177,16 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 600;">
+            <div class="uk-width-1-3@m uk-width-1-1@s">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
-                        <img src="img/portfolio/rekrutacja.jpg" class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
+                        <img src="img/portfolio/rekrutacja.jpg"
+                            class="portfolio-img uk-transition-scale-up uk-transition-opaque" alt="">
                         <div class="uk-overlay-primary uk-position-cover"></div>
-                        <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
+                        <div
+                            class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default">
                             <div class="uk-position-center">
-                                <p class="uk-h4">zadanie rekrutacyjne</p>
+                                <p class="portfolio__title-project">zadanie rekrutacyjne</p>
                                 <a href="http://www.sniadach.pl/projekty/zadanie-rekrutacyjne" target="_blank">
                                     <span uk-icon="icon: link; ratio: 2"></span>
                                 </a>
@@ -153,7 +206,8 @@
                                                     <img src="img/portfolio/modals/zadanie-rekrutacyjne.png" alt="">
                                                 </div>
                                                 <div>
-                                                    <p>Projekt stworzony na potrzeby rekrutacji do firmy Infinity Group. Z PSD
+                                                    <p>Projekt stworzony na potrzeby rekrutacji do firmy Infinity Group.
+                                                        Z PSD
                                                         do HTML.</p>
                                                     <p>Użyte technologie:
                                                         <br> - HTML
@@ -162,10 +216,12 @@
                                                         <br> - Gulp
                                                         <br> - SASS</p>
                                                     <p>
-                                                        <a href="http://sniadach.pl/projekty/zadanie-rekrutacyjne/" target="_blank">
+                                                        <a href="http://sniadach.pl/projekty/zadanie-rekrutacyjne/"
+                                                            target="_blank">
                                                             <span uk-icon="icon: link; ratio: 2"></span>
                                                         </a>
-                                                        <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne" target="_blank">
+                                                        <a href="https://github.com/szymonsniadach/zadanie-rekrutacyjne"
+                                                            target="_blank">
                                                             <span uk-icon="icon: github; ratio: 2"></span>
                                                         </a>
                                                     </p>
@@ -173,7 +229,8 @@
                                             </div>
                                         </div>
                                         <div class="uk-modal-footer uk-text-right">
-                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Zamknij</button>
+                                            <button class="uk-button uk-button-default uk-modal-close"
+                                                type="button">Zamknij</button>
                                         </div>
                                     </div>
                                 </div>

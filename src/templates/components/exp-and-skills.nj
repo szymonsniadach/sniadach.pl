@@ -1,4 +1,4 @@
-<section id="exp-and-skills" class="exp-and-skills">
+<section id="doswiadczenie" class="exp-and-skills">
     <div class="uk-container uk-container-large">
 
         <h2 class="uk-heading-line uk-text-center">
@@ -12,28 +12,60 @@
         </div>
 
         <div class="exp">
-            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 300;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
-                        <h3>Web Developer</h3>
+                        <h3>Junior Front-End Developer</h3>
+                    </div>
+                    <div class="exp__time">
+                        <p>
+                            9 Bits Sp. z o.o.
+                            <br> 15 październik 2018 - obecnie
+                        </p>
+                    </div>
+                    <div class="exp__text">
+                        
+                        <p>Projekt: branża eCommerce</p>
+
+                        <ul>
+                            <li>tworzenie stron internetowych w oparciu o technologię Angular</li>
+                            <li>optymalizacja strony w Angular</li>
+                            <li>zapewnienie kompatybilności wytwarzanego oprogramowania z przeglądarkami (Chrome, FF, Edge, IE)<br></li>
+                            <li>dbanie o wysoką jakość kodu</li>
+                            <li>kontakt z klientem i współpraca z zespołem projektowym</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 300;">
+                <div class="exp__dot"></div>
+                <div class="exp-content uk-box-shadow-medium">
+                    <div class="exp__title">
+                        <h3>Junior Web Developer</h3>
                     </div>
                     <div class="exp__time">
                         <p>
                             ADSIRA SP. Z. O. O. S K
-                            <br> 23 październik 2017 - obecnie
+                            <br> 23 październik 2017 - 13 październik 2018
                         </p>
                     </div>
                     <div class="exp__text">
-                        <p>
-                            - modyfikacja i tworzenie stron oraz aplikacji internetowych<br>
-                            - dostosowywanie stron oraz aplikacji internetowych do obowiązujących standardów<br>
-                            - realizacja zadań zgodnie z bieżącym harmonogramem oraz z założeniami projektowymi
-                        </p>
+
+                        <p>Główny projekt: platforma e-learningowa</p>
+
+                        <ul>
+                            <li>modyfikacja i tworzenie stron oraz aplikacji internetowych (PHP, framework CodeIgniter,
+                                    HTML, CSS, JS)</li>
+                            <li>dostosowywanie stron oraz aplikacji internetowych do obowiązujących standardów</li>
+                            <li>realizacja zadań zgodnie z bieżącym harmonogramem oraz z założeniami projektowymi</li>
+                        </ul>
+                        
                     </div>
                 </div>
             </div>
-            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 300;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-right-medium; delay: 300;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -46,17 +78,19 @@
                         </p>
                     </div>
                     <div class="exp__text">
-                        <p>
-                            - tworzenie i modyfikacja stron internetowych<br>
-                            - dostosowywanie stron internetowych do obowiązujących standardów<br>
-                            - tworzenie mailingów, banerów dla kampanii reklamowych<br>
-                            - testowanie stron internetowych<br>
-                            - zapoznanie z systemem Sitecore oraz OpenText
-                        </p>
+
+                        <ul>
+                            <li>tworzenie i modyfikacja stron internetowych</li>
+                            <li>dostosowywanie stron internetowych do obowiązujących standardów</li>
+                            <li>tworzenie mailingów i banerów dla kampanii reklamowych</li>
+                            <li>testowanie stron internetowych</li>
+                            <li>zapoznanie z systemem Sitecore oraz OpenText</li>
+                        </ul>
+                        
                     </div>
                 </div>
             </div>
-            <div class="exp--box" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 600;">
+            <div class="exp__box" uk-scrollspy="cls: uk-animation-slide-left-medium; delay: 600;">
                 <div class="exp__dot"></div>
                 <div class="exp-content uk-box-shadow-medium">
                     <div class="exp__title">
@@ -69,54 +103,72 @@
                         </p>
                     </div>
                     <div class="exp__text">
-                        <p>
-                            - tworzenie stron internetowych
-                            <br> - tworzenie mailingów
-                            <br> - tworzenie sklepów internetowych
-                            <br> - dostosywanie stron do rozdzielczości urządzenia
-                        </p>
+
+                        <ul>
+                            <li>tworzenie stron internetowych na podstawie szablonu graficznego</li>
+                            <li>tworzenie mailingów</li>
+                            <li>tworzenie sklepów internetowych (OpenCart)</li>
+                            <li>dostosywanie stron do rozdzielczości urządzenia</li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="skills" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay: 300;">
-            <div class="uk-child-width-1-6@m uk-child-width-1-4@s uk-child-width-1-2" uk-grid>
+        <div class="skills" uk-scrollspy="cls: uk-animation-fade; delay: 300;">
+            <div class="uk-flex uk-flex-center" uk-grid>
                 <div>
-                    <img src="img/logos/html.png" alt="HTML" title="HTML" uk-tooltip="pos: bottom">
+                    <img src="img/logo/js.png" alt="JavaScript">
+                    <div class="uk-text-center uk-margin-small-top">JavaScript</div>
                 </div>
                 <div>
-                    <img src="img/logos/css.png" alt="CSS" title="CSS" uk-tooltip="pos: bottom">
+                    <img src="img/logo/angular.png" alt="Angular">
+                    <div class="uk-text-center uk-margin-small-top">Angular</div>
                 </div>
                 <div>
-                    <img src="img/logos/bootstrap.png" alt="Bootstrap" title="Bootstrap" uk-tooltip="pos: bottom">
+                    <img src="img/logo/html.png" alt="HTML">
+                    <div class="uk-text-center uk-margin-small-top">HTML5</div>
                 </div>
                 <div>
-                    <img src="img/logos/uikit.png" alt="UIkit" title="UIkit" uk-tooltip="pos: bottom">
+                    <img src="img/logo/css.png" alt="CSS">
+                    <div class="uk-text-center uk-margin-small-top">CSS3</div>
                 </div>
                 <div>
-                    <img src="img/logos/sass.png" alt="SASS" title="SASS" uk-tooltip="pos: bottom">
+                    <img src="img/logo/bootstrap.png" alt="Bootstrap">
+                    <div class="uk-text-center uk-margin-small-top">framework<br>Bootstrap</div>
                 </div>
                 <div>
-                    <img src="img/logos/js.png" alt="JavaScript" title="JavaScript" uk-tooltip="pos: bottom">
+                    <img src="img/logo/uikit.png" alt="UIkit">
+                    <div class="uk-text-center uk-margin-small-top">framework UIkit</div>
                 </div>
                 <div>
-                    <img src="img/logos/jq.png" alt="jQuery" title="jQuery" uk-tooltip="pos: bottom">
+                    <img src="img/logo/sass.png" alt="SASS">
+                    <div class="uk-text-center uk-margin-small-top">SCSS/SASS</div>
                 </div>
                 <div>
-                    <img src="img/logos/gulp.png" alt="Gulp" title="Gulp" uk-tooltip="pos: bottom">
+                    <img src="img/logo/jq.png" alt="jQuery">
+                    <div class="uk-text-center uk-margin-small-top">jQuery</div>
                 </div>
                 <div>
-                    <img src="img/logos/github.png" alt="GitHub" title="GitHub" uk-tooltip="pos: bottom">
+                    <img src="img/logo/gulp.png" alt="Gulp">
+                    <div class="uk-text-center uk-margin-small-top">Gulp</div>
                 </div>
                 <div>
-                    <img src="img/logos/jira.png" alt="Jira" title="Jira" uk-tooltip="pos: bottom">
+                    <img src="img/logo/codeigniter.png" alt="Codeigniter">
+                    <div class="uk-text-center uk-margin-small-top">framework PHP<br>Codeigniter</div>
                 </div>
                 <div>
-                    <img src="img/logos/photoshop.png" alt="Photoshop" title="Photoshop" uk-tooltip="pos: bottom">
+                    <img src="img/logo/git.png" alt="Git">
+                    <div class="uk-text-center uk-margin-small-top">Git</div>
                 </div>
                 <div>
-                    <img src="img/logos/codeigniter.png" alt="Codeigniter" title="Codeigniter" uk-tooltip="pos: bottom">
+                    <img src="img/logo/jira.png" alt="Jira">
+                    <div class="uk-text-center uk-margin-small-top">Jira</div>
+                </div>
+                <div>
+                    <img src="img/logo/photoshop.png" alt="Photoshop">
+                    <div class="uk-text-center uk-margin-small-top">Photoshop</div>
                 </div>
             </div>
         </div>

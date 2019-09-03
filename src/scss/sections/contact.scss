@@ -1,12 +1,11 @@
 .contact {
-    .personal-info-list {
-        column-count: 2;
-        @media (max-width: $s-max) {
-            column-count: 1;
-        }
-    }
     &--block {
         background-color: #FFF;
         padding: 50px;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
     }
 }

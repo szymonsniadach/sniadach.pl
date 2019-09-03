@@ -1,4 +1,4 @@
-<section id="about-me" class="about-me">
+<!-- <section id="about-me" class="about-me">
     <div class="uk-container uk-container-large">
 
         <h2 class="uk-heading-line uk-text-center">
@@ -11,7 +11,7 @@
                 <div class="uk-flex uk-flex-center" uk-grid>
 
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
-                        <div class="personal-info">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: user; ratio: 2"></span>
                             </div>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
-                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 600;">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 600;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: mail; ratio: 2"></span>
                             </div>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
-                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 900;">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 900;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: phone; ratio: 2"></span>
                             </div>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl">
-                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 1200;">
+                        <div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 1200;">
                             <div class="personal-info__icon">
                                 <span uk-icon="icon: location; ratio: 2"></span>
                             </div>
@@ -55,27 +55,29 @@
 
                 </div>
 
-                <p>
-                    Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam
-                    łącznie rok doświadczenia komercyjnego.
-                </p>
-                <p>
-                    Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Szukam pracy jako Front-End Developer.
-                </p>
-
-                <div class="uk-inline">
-                    <a href="pdf/Szymon Śniadach - CV.pdf"><button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button></a>
-                    <!-- <div uk-dropdown="mode: click">
-                        <ul class="uk-list uk-text-center">
-                            <a href="pdf/Szymon Śniadach - CV PL.pdf">
-                                <li>PL</li>
-                            </a>
-                            <br>
-                            <a href="pdf/Szymon Śniadach - CV EN.pdf">
-                                <li>EN</li>
-                            </a>
-                        </ul>
-                    </div> -->
+                <div class="about-me__text uk-margin-medium-top" uk-scrollspy="cls: uk-animation-fade; delay: 300;">
+                    <p>
+                        Od 2 lat zajmuję się kodowaniem stron internetowych. Staram się ciągle rozwijać i być na bieżąco z nowymi trendami. Posiadam
+                        łącznie rok doświadczenia komercyjnego.
+                    </p>
+                    <p>
+                        Jestem absolwentem Technikum Elektrycznego w Białymstoku na kierunku Informatyka. Szukam pracy jako Front-End Developer.
+                    </p>
+    
+                    <div class="uk-inline">
+                        <a href="pdf/Szymon Śniadach - CV.pdf"><button class="my-button"><span uk-icon="icon: download"></span> Pobierz CV</button></a>
+                        <div uk-dropdown="mode: click">
+                            <ul class="uk-list uk-text-center">
+                                <a href="pdf/Szymon Śniadach - CV PL.pdf">
+                                    <li>PL</li>
+                                </a>
+                                <br>
+                                <a href="pdf/Szymon Śniadach - CV EN.pdf">
+                                    <li>EN</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -86,4 +88,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

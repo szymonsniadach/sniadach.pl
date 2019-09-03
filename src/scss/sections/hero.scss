@@ -4,13 +4,16 @@
     height: 100vh;
     padding-top: 0px;
     padding-bottom: 0px;
+    .me-img {
+        width: 150px;
+    }
     h2 {
         font-family: 'Lobster', cursive;
-        font-size: 5em;
+        font-size: 2.6em;
     }
     p {
         font-family: 'Lobster', cursive;
-        font-size:2em;
+        font-size:1.6em;
         color: #FFF;
     }
     .uk-overlay-primary {
@@ -20,5 +23,17 @@
         @media (max-width: $m-max) {
             display: none;
         }
+    }
+}
+
+@media (min-width: $s) {
+    .hero .me-img {
+        width: 200px;
+    }
+    .hero h2 {
+        font-size: 5em;
+    }
+    .hero p {
+        font-size: 2em;
     }
 }

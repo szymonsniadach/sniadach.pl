@@ -1,54 +1,63 @@
-<section id="contact" class="contact">
+<section id="kontakt" class="contact">
 	<div class="uk-container uk-container-large">
 
 		<h2 class="uk-heading-line uk-text-center"><span>Kontakt</span></h2>
 
-		<div class="contact--block uk-box-shadow-large" uk-scrollspy="cls: uk-animation-scale-up; repeat: true; delay: 300;">
+		<div class="contact--block uk-box-shadow-large" uk-scrollspy="cls: uk-animation-scale-up; delay: 300;">
 			<div uk-grid>
 				<div class="uk-width-1-2@m">
-					<div class="uk-flex uk-flex-center">
+					<div uk-grid>
 
-						<ul class="personal-info-list">
-							<li class="personal-info">
+						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
+							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: user; ratio: 2"></span>
 								</div>
 								<div class="personal-info__text">
 									<span>Szymon Śniadach</span>
 								</div>
-							</li>
-							<li class="personal-info">
+							</div>
+						</div>
+						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
+							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 600;">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: mail; ratio: 2"></span>
 								</div>
 								<div class="personal-info__text">
 									<span>sz.sniadach[małpa]wp.pl</span>
 								</div>
-							</li>
-							<li class="personal-info">
+							</div>
+						</div>
+						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
+							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 900;">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: phone; ratio: 2"></span>
 								</div>
 								<div class="personal-info__text">
-									<span><a href="tel:783419222">783 419 222</a></span>
+									<span>
+										<a href="tel:783419222">783 419 222</a>
+									</span>
 								</div>
-							</li>
-							<li class="personal-info">
+							</div>
+						</div>
+						<div class="uk-width-1-1 uk-width-1-2@s uk-width-1-1@m uk-width-1-2@xl">
+							<div class="personal-info" uk-scrollspy="cls: uk-animation-slide-top; delay: 1200;">
 								<div class="personal-info__icon">
 									<span uk-icon="icon: location; ratio: 2"></span>
 								</div>
 								<div class="personal-info__text">
 									<span>Białystok</span>
 								</div>
-							</li>
-						</ul>
+							</div>
+						</div>
 
 					</div>
 					<div class="uk-flex uk-flex-center">
 						<div class="social-media">
-							<a href="https://github.com/szymonsniadach" target="_blank" class="uk-margin-right" uk-icon="icon: github; ratio: 2"></a>
-							<a href="https://www.linkedin.com/in/szymon-sniadach/" target="_blank" class="uk-margin-right" uk-icon="icon: linkedin; ratio: 2"></a>
-							<a href="https://www.facebook.com/szymon.sniadach.1" target="_blank" class="uk-margin-right" uk-icon="icon: facebook; ratio: 2"></a>
+							<a href="https://github.com/szymonsniadach" target="_blank" class="uk-margin-right"
+								uk-icon="icon: github; ratio: 2"></a>
+							<a href="https://www.linkedin.com/in/szymon-sniadach/" target="_blank"
+								class="uk-margin-right" uk-icon="icon: linkedin; ratio: 2"></a>
 						</div>
 					</div>
 				</div>
@@ -64,30 +73,35 @@
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: user"></span>
-									<input class="uk-input" id="form-name" name="name" type="text" placeholder="Imię i Nazwisko / Nazwa firmy" required>
+									<input class="uk-input" id="form-name" name="name" type="text"
+										placeholder="Imię i Nazwisko / Nazwa firmy" required>
 								</div>
 							</div>
 
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: mail"></span>
-									<input class="uk-input" id="form-email" name="email" type="email" placeholder="Email" required>
+									<input class="uk-input" id="form-email" name="email" type="email"
+										placeholder="Email" required>
 								</div>
 							</div>
 
 							<div class="uk-margin">
 								<div class="uk-width-1-1 uk-inline">
 									<span class="uk-form-icon" uk-icon="icon: phone"></span>
-									<input class="uk-input" id="form-phone" name="phone" type="number" placeholder="Telefon">
+									<input class="uk-input" id="form-phone" name="phone" type="number"
+										placeholder="Telefon">
 								</div>
 							</div>
 
 							<div class="uk-margin">
-								<textarea class="uk-textarea" id="form-message" name="message" rows="5" placeholder="Treść wiadomości" required></textarea>
+								<textarea class="uk-textarea" id="form-message" name="message" rows="5"
+									placeholder="Treść wiadomości" required></textarea>
 							</div>
 
-							<button type="submit" id="submit-form" class="my-button" form="contact-form">Wyślij wiadomość</button>
-							
+							<button type="submit" id="submit-form" class="my-button" form="contact-form">Wyślij
+								wiadomość</button>
+
 						</fieldset>
 					</form>
 

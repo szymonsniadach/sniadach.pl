@@ -1,28 +1,23 @@
-.personal-info-list {
-	column-count: 4;
-	@media (max-width: $xl-max) {
-		column-count: 2;
-	}
-	@media (max-width: $s-max) {
-		column-count: 1;
-	}
-}
+.personal-info-list {}
 
 .personal-info {
 	display: flex;
 	align-items: center;
 	&__icon {
+		position: relative;
 		background-color: #004A71;
 		color: #FFF;
-		padding: 10px;
+		min-width: 50px;
+		width: 50px;
+		height: 50px;
+	}
+	&__icon span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	&__text {
 		padding-left: 20px;
-	}
-}
-
-@media (min-width: $xl) {
-	.personal-info {
-		padding: 20px;
 	}
 }

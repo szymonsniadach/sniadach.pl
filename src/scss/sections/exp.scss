@@ -29,7 +29,7 @@
             width: 50px;
         }
     }
-    &--box {
+    &__box {
         position: relative;
         &::after {
             content: "";
@@ -61,7 +61,7 @@
     }
 
     @media (min-width: $l) {
-        &--box:nth-child(2n+3) .exp-content, &--box:nth-child(2n+2) .exp-content, &--box:nth-child(2n+2) &__dot {
+        &__box:nth-child(2n+3) .exp-content, &__box:nth-child(2n+2) .exp-content, &__box:nth-child(2n+2) &__dot {
             margin-top: -100px;
         }
     }
@@ -72,7 +72,7 @@
          &-content {
             width: 100%;
         }
-        &--box {
+        &__box {
             float: none;
             margin-top: 20px;
         }

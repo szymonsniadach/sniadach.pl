@@ -1,4 +1,29 @@
-<header class="header">
+<div class="uk-position-relative">
+    <!-- <img src="images/light.jpg" alt=""> -->
+    <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <!-- <li>
+                        <a href="#about-me" uk-scroll>O mnie</a>
+                    </li> -->
+                    <li>
+                        <a href="#doswiadczenie" uk-scroll>Doświadczenie</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" uk-scroll>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#kontakt" uk-scroll>Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+<!-- <header class="header">
     <nav>
         <div class="nav-button">
             <div class="nav-icon">
@@ -16,4 +41,4 @@
             <li><a href="#" uk-scroll><span uk-icon="icon: home; ratio: 1.5" title="Strona główna" uk-tooltip="pos: right"></span></a></li>
         </ul>
     </nav>
-</header>
+</header> -->
