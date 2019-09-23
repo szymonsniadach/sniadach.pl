@@ -1,3 +1,7 @@
+html {
+    font-size: 14px;
+}
+
 body, .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Prompt', sans-serif;
 }
@@ -31,4 +35,10 @@ section {
 
 .uk-modal-body a:hover {
     text-decoration: none;
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        font-size: 16px
+    }
 }

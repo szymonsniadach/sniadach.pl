@@ -1,5 +1,3 @@
-.personal-info-list {}
-
 .personal-info {
 	display: flex;
 	align-items: center;
@@ -18,6 +16,12 @@
 		transform: translate(-50%, -50%);
 	}
 	&__text {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.personal-info__text {
 		padding-left: 20px;
 	}
 }
